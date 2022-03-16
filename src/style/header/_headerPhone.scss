@@ -1,0 +1,42 @@
+body{
+    font-family: sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    background: #F7F7F7;
+
+    img{
+        margin-top: 15px;
+        margin-left: 25px;
+    }
+
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px ;
+    margin: 0 5px;
+
+}
+
+nav ul li a {
+    color: #9CA0A8;
+    font-size: 17px;
+    padding: 7px 13px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: 1s ease-in-out;
+
+    &:hover{
+        color: #F53838;
+    }
+}
+
